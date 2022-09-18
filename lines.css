@@ -1,0 +1,323 @@
+.font{
+  color: white;
+}
+.every{
+  margin: 5vh 0vh;
+}
+
+.allpic{
+  background-color: black;
+  min-height: 30vh;
+  border-top: 5px solid yellow;
+  border-bottom: 5px solid yellow;
+}
+.bord{
+  border-bottom: 2px dashed white;
+  position:relative;
+  top: 109px;
+  height: 2vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+.bord2{
+  border-bottom: 2px dashed white;
+  position:relative;
+  top: 225px;
+  height: 2vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.parent {
+    position: relative;
+    top: 0px;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top:0;
+    left: 0;
+  }
+  .image2 {
+    top: 15px;
+    left: 74px;
+    color: red;
+    font-size: 2.9rem;
+  }
+  .image3 {
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    color: blue;
+    font-size: 2.8rem;
+  }
+  .icon{
+    display: inline-block;
+  }
+
+  .parentt {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image11 {
+    position: relative;
+    top: 30;
+  }
+  .image22 {
+    position: absolute;
+    left: 34;
+    top: 62;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    /* color:rgb(27, 187, 27); */
+    color:black;
+  }
+  .image222 {
+    position: absolute;
+    top: 96px;
+    left: 62px;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(247, 247, 175);
+  }
+
+  .allsection{
+    border: 2px solid rgb(189, 180, 180);
+    border-radius: 6px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: url(./img/imgedit.png) no-repeat center/cover;
+  }
+
+  .line{
+    /* background-color: #59b4ea; */
+    background-color: #dc3545;
+    border-radius: 4px;
+  }
+
+  .icon{
+    color: #854e4b;
+  }
+
+  .text{
+    color: #dc3545;
+    /* color: #DE1B1B; */
+    font-weight: bold;
+  }
+  .text:hover{
+    color: #6610f2;
+  }
+  .id{
+    position: relative; 
+    bottom:96px; 
+    color: #6610f2;
+    font-weight: bold;
+    font-size: 21px;
+  }
+  .idd{
+   position: relative; 
+   bottom:100px;
+   right: 20px; 
+   color: #6610f2;
+   font-weight: bold;
+   font-size: 21px;
+ }
+  .id:hover{
+    color: #dc3545;
+  }
+  .idd:hover{
+    color: #dc3545;
+  }
+
+  .bus{
+    transition: all 0.7s;
+    transform: translate3d(15deg,15deg,15deg)
+  }
+  .bus:hover{
+    transform: scale(1.2);
+  }
+
+  @media (min-width:1370px){
+    .idd{
+      position: relative; 
+      bottom:110px;
+      right: 21px;
+      font-size: 20px;
+    }
+    .id{
+      position: relative; 
+      bottom:105px; 
+      font-size: 20px;
+    }
+    .image22 {
+      position: absolute;
+      left: 41;
+      top: 70;
+      font-size: 18px;
+    }
+    .totbus{
+      position: relative;
+      bottom: 10px;
+    }
+    .totbus1{
+      position: relative;
+      bottom: 10px;
+    }
+    .image222 {
+      position: absolute;
+      top: 108px;
+      left: 71px;
+      background-color: transparent;
+      font-weight: bold;
+      color: rgb(247, 247, 175);
+      font-size: 15px;
+    }
+    .text{
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width:991px) and (max-width: 1200px){
+    .idd{
+      position: relative; 
+      bottom:91px;
+      right: 15px;
+    }
+    .id{
+      position: relative; 
+      bottom:87px; 
+    }
+    .image22 {
+      position: absolute;
+      left: 22;
+      top: 56;
+    }
+    .image222 {
+      position: absolute;
+      top: 83px;
+      left: 51px;
+      background-color: transparent;
+      font-weight: bold;
+      color: rgb(247, 247, 175);
+    }
+  }
+
+  @media (min-width:768px) and (max-width: 990px){
+    .idd{
+      position: relative; 
+      bottom:73px;
+      right: 12px;
+      font-size: 18px;
+    }
+    .id{
+      position: relative; 
+      bottom:71px; 
+      font-size: 18px;
+    }
+    .image22 {
+      position: absolute;
+      left: 14;
+      top: 50;
+      font-size: 13px;
+    }
+    .totbus{
+      position: relative;
+      bottom: 10px;
+    }
+    .totbus1{
+      position: relative;
+      bottom: 10px;
+    }
+    .image222 {
+      position: absolute;
+      top: 67px;
+      left: 36px;
+      background-color: transparent;
+      font-weight: bold;
+      color: rgb(247, 247, 175);
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width:768px) and (max-width: 867px){
+    .idd{
+      position: relative; 
+      bottom:71px;
+      right: 11px;
+      font-size: 16px;
+    }
+    .id{
+      position: relative; 
+      bottom:70px; 
+      font-size: 16px;
+    }
+    .image22 {
+      position: absolute;
+      left: 13;
+      top: 46;
+      font-size: 13px;
+    }
+    .totbus{
+      position: relative;
+      bottom: 10px;
+    }
+    .totbus1{
+      position: relative;
+      bottom: 10px;
+    }
+    .image222 {
+      position: absolute;
+      top: 67px;
+      left: 37px;
+      background-color: transparent;
+      font-weight: bold;
+      color: rgb(247, 247, 175);
+    }
+  }
+
+  @media  (max-width: 767px){
+    .idd{
+      position: relative; 
+      bottom:59px;
+      right: 8px;
+      font-size: 15px;
+    }
+    .id{
+      position: relative; 
+      bottom:57px; 
+      font-size: 15px;
+    }
+    .image22 {
+      position: absolute;
+      left: 8;
+      top: 42;
+      font-size: 10px;
+    }
+    .totbus{
+      position: relative;
+      bottom: 14px;
+    }
+    .totbus1{
+      position: relative;
+      bottom: 14px;
+    }
+    .image222 {
+      position: absolute;
+      top: 55px;
+      left: 26px;
+      background-color: transparent;
+      font-weight: bold;
+      color: rgb(247, 247, 175);
+      font-size: 9px;
+    }
+  }
+ 
